@@ -1,0 +1,127 @@
+
+#root {
+  *zoom: 1;
+  width: auto;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+#root:before,
+#root:after {
+  content: '';
+  display: table;
+}
+#root:after {
+  clear: both;
+}
+#root .sidebar {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+  background-color: #ffc;
+}
+#root .sidebar:before,
+#root .sidebar:after {
+  content: '';
+  display: table;
+}
+#root .sidebar:after {
+  clear: both;
+}
+#root .sidebar:last-child {
+  margin-right: 0%;
+}
+#root .sidebar ul {
+  list-style: none;
+}
+#root .sidebar ul li {
+  display: none;
+  margin: 0 0 10px 0;
+}
+@media only screen and (max-width: 600px) {
+  #root .sidebar {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #root .sidebar:first-child {
+    margin-left: auto;
+  }
+  #root .sidebar:last-child {
+    margin-right: auto;
+  }
+  #root .sidebar ul {
+    *zoom: 1;
+    width: auto;
+    max-width: 200px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #root .sidebar ul:before,
+  #root .sidebar ul:after {
+    content: '';
+    display: table;
+  }
+  #root .sidebar ul:after {
+    clear: both;
+  }
+  #root .sidebar ul li {
+    display: inline;
+    margin: 0 15px 0 0;
+  }
+}
+#root .main {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 65.66666666666666%;
+  margin-left: 0%;
+  margin-right: 3%;
+  background-color: #ccc;
+}
+#root .main:before,
+#root .main:after {
+  content: '';
+  display: table;
+}
+#root .main:after {
+  clear: both;
+}
+#root .main:last-child {
+  margin-right: 0%;
+}
+@media only screen and (max-width: 600px) {
+  #root .main {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #root .main:first-child {
+    margin-left: auto;
+  }
+  #root .main:last-child {
+    margin-right: auto;
+  }
+}
+
+
+/*# sourceMappingURL=app.css.map*/
